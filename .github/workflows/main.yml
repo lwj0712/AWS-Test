@@ -37,7 +37,7 @@ jobs:
 
             source venv/bin/activate
             
-            cd /home/ubuntu/app/AWS-Test/drf_test
+            cd /home/ubuntu/app/AWS-Test/drf_test/drf_test
 
             echo "SECRET_KEY=\"${{ secrets.SECRET_KEY }}\"" > .env
             echo "DEBUG='${{ secrets.DEBUG }}'" >> .env
